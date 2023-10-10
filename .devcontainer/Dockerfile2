@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 FROM anapsix/alpine-java 
 LABEL maintainer="shanem@liatrio.com" 
 COPY /target/spring-petclinic-1.5.1.jar /home/spring-petclinic-1.5.1.jar 
 CMD ["java","-jar","/home/spring-petclinic-1.5.1.jar"]
+=======
+
+>>>>>>> 23389ac506600464a816f927a0673b5d6e4e8265
